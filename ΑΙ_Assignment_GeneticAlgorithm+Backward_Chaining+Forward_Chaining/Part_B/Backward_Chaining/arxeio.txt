@@ -1,0 +1,5 @@
+Fact: Sunny
+Fact: Weekend
+Sunny, Weekend -> GoToBeach
+Fact: HaveCar
+GoToBeach, HaveCar -> RoadTrip

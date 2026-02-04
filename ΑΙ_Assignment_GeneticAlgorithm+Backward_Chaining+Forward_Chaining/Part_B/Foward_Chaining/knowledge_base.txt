@@ -1,0 +1,4 @@
+FACT: A
+FACT: B
+RULE: A => C
+RULE: C => D

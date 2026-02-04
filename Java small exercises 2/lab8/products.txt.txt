@@ -1,0 +1,9 @@
+DVD#Match Point#woody allen#Jonathan Rhys Meyers#90#23.5
+CD#Four#Led Zeppelin#6#55#15.95
+DVD#Anna Karenina#Joe Wright#Keira Knightley#115#35.95
+CD#the wall#Pink Floyd#12#128#22.90
+DVD#Les Miserables #Ton Hooper#Anne Hathaway#135#33.95
+DVD#The Birds #Alfred Hitchcock #Tippi Hedren#98#28.5
+CD#The River#Bruce Springsteen#11#76#22.5
+CD#Stars#Simply Red#12#98#35.85
+CD#Catch the Rainbow#Rainbow#14#113#25.85

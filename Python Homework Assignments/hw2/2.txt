@@ -1,0 +1,27 @@
+x=1000
+i=1
+def count_digit(x, i):
+    subx=x
+    if i==1:
+     numb = x%10
+     exit=1
+    else:
+     exit=1
+     while exit != i:
+      divz=x//10
+      modz=x%10
+      exit=exit+1
+      if exit==i:
+       numb=modz
+     calc=0
+     x=divz
+    exit=0
+    while exit==0:
+      modz=subx%10
+      if modz==numb:
+        calc=calc+1 
+      divz=subx//10
+      if divz==0:
+        exit==0
+      subx=divz
+    print(calc)

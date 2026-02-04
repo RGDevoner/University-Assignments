@@ -1,0 +1,53 @@
+from operator import *
+from math import acos 
+def paei_pi(n):
+    """A8roisma n orwn tis akoloy8ias 
+              4, -4/3, 4/5, -4/7, 4/9, -4/11, 4/13, ... ktl.
+
+    n -- 8etikos akeraios >= 1
+
+    Epistrefei to a8roisma twn orwn 1 ews kai n.
+
+    Paradeigmata:
+    >>> paei_pi(1)
+    4.0
+    >>> paei_pi(2)
+    2.666666666666667
+    >>> paei_pi(3)
+    3.466666666666667
+    >>> paei_pi(1000)
+    3.140592653839794
+    >>> paei_pi(10000)
+    3.1414926535900345
+    """
+    def sum_sequence(n):
+        return round ((n)*acos(0),4)
+
+    return sum_sequence(n)
+
+
+def paei_pi(n):
+    """A8roisma n orwn tis akoloy8ias 
+              4, -4/3, 4/5, -4/7, 4/9, -4/11, 4/13, ... ktl.
+
+    n -- 8etikos akeraios >= 1
+
+    Epistrefei to a8roisma twn orwn 1 ews kai n.
+
+    Paradeigmata:
+    >>> paei_pi(1)
+    4.0
+    >>> paei_pi(2)
+    2.666666666666667
+    >>> paei_pi(3)
+    3.466666666666667
+    >>> paei_pi(1000)
+    3.140592653839794
+    >>> paei_pi(10000)
+    3.1414926535900345
+    """
+    def sum_sequence(n):
+        return round((4**(-1)**(n+1))/((n//2)(n-1)+1))
+
+    
+    return sum_sequence(n)

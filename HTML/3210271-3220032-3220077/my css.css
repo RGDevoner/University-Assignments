@@ -1,0 +1,146 @@
+.image{
+		
+		margin-top: 40px;
+		width: 500px;
+		height: 400px;
+}
+.list{
+	text-align: left;
+}
+.pinakas{
+	width: 300px; 
+    margin-top: 10px;
+	padding: 10px;
+	border: 7px solid blue;
+	
+}
+
+:root {
+  --color-primary: #ac9c0b;
+  --color-white: #e9e9e9;
+  --color-black: #11396b;
+  --color-black-1: #1b1f24;
+}
+p{
+  color:#dbc603;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.menu__bar {
+  background-color: var(--color-black);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.menu__bar ul{
+  list-style: none;
+  display: flex;
+}
+.menu__bar ul li{
+  padding: 10px 30px;
+}
+
+.menu__bar ul li a{
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 20px;
+
+  transition:all 0.3s;
+}
+.menu__bar ul li a:hover{
+  color: var(--color-primary);
+}
+.container{
+  width: 200px;
+  position: relative;
+}
+.click{
+  background-color:#ac9c0b;
+}
+.click:hover{
+  background-color:#ac9c0b;
+} 
+.click,.links{
+padding: 12px;
+font-size: 1.2em;
+font-family: futura Md BT;
+border: none;
+outline: none;
+width:2000px;
+color:#e9e9e9;
+transition: 0.3s;
+}
+
+.list{
+ position:absolute;
+ transform: scaleY(0);
+ transform-origin: top;
+ transition: 0.3s;
+}
+.newlist{
+  transform: scaleY(1);
+}
+.links{ 
+  background-color:#0f0f0f;
+}
+.links:hover {
+  background-color:#ac9c0b;
+  transform: scale(1.1);
+}
+.presslinks ul li a{
+  color:aqua;
+  text-decoration: none;
+  font-size: 20px;
+
+  transition:all 0.3s;
+}
+.menu__bar ul li a:hover{
+  color: var(--color-primary);
+}
+.kol{
+	margin-top: 20px;
+}
+.kol2{
+	width: 400px;
+	height: 300px;
+}
+.kar{
+	margin-top: 20px;
+	width: 200px;
+	height: 250px;
+}
+
+body{
+  background-image: url('Elpinakth.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+TABLE{
+  width: 80%;
+}
+.mauromixalis{
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+}
+.ypsilantis_dim{
+  margin-top: 20px;
+  width: 200px;
+  height: 250px;
+}
+.diakos{
+
+  margin-top: 20px;
+}

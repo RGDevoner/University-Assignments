@@ -1,0 +1,7 @@
+ΑΧΙΛΛΕΑΣ ΖΩΧΙΟΣ P3220273
+ΑΛΕΞΑΝΔΡΟΣ ΜΑΚΡYΓΙΑΝΝΗΣ P3210271
+
+Endpoint:<mysqlserverazam.database.windows.net>
+Database: <ExercisesDatabase>
+Username: <examiner>
+Password: <Azamazam#>

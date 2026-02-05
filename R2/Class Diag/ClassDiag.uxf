@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>260</x><y>90</y><w>210</w><h>120</h></coordinates><panel_attributes>Χρήστης/User
+--
+Username
+Password
+AccountType
+MusicPreferences
+Listening History</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1050</x><y>750</y><w>210</w><h>70</h></coordinates><panel_attributes>Admin/Διαχειριστής
+--
+Username
+Password
+AccountType</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>800</x><y>410</y><w>210</w><h>120</h></coordinates><panel_attributes>Song/Τραγούδι
+--
+Title
+Discription
+Artist
+/AveragePhychologicalMoodRating
+/AverageActivityRating
+/AverageHardOrSoftRating</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1110</x><y>130</y><w>210</w><h>90</h></coordinates><panel_attributes>Αξιολόγηση/Rating
+--
+PhychologicalMoodRating
+ActivityRating
+HardOrSoftRating</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>270</x><y>540</y><w>210</w><h>70</h></coordinates><panel_attributes>SearchSongs
+--
+SearchedSongName</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>480</y><w>350</w><h>120</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+ψάχνει την Βάση Δεδομένων &gt;</panel_attributes><additional_attributes>10;100;330;10</additional_attributes></element><element><id>Relation</id><coordinates><x>910</x><y>520</y><w>210</w><h>250</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=1
+φορτώνει στην 
+βάση δεδομένων</panel_attributes><additional_attributes>10;10;190;230</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>200</y><w>110</w><h>360</h></coordinates><panel_attributes>lt=-
+m1=1..*
+m2=1
+αναζητά &gt;</panel_attributes><additional_attributes>40;340;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>210</y><w>240</w><h>270</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=*
+Αξιολογούν</panel_attributes><additional_attributes>10;250;220;10</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>150</y><w>360</w><h>280</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=1..*
+ακούει</panel_attributes><additional_attributes>10;10;340;260</additional_attributes></element></diagram>

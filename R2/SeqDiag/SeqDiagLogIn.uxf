@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLActor</id><coordinates><x>320</x><y>0</y><w>80</w><h>110</h></coordinates><panel_attributes>Ακροατής </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>50</y><w>140</w><h>30</h></coordinates><panel_attributes>Εφαρμογή</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>780</x><y>50</y><w>140</w><h>30</h></coordinates><panel_attributes>Βάση Δεδομένων</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>90</y><w>30</w><h>850</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;830</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>70</y><w>30</w><h>850</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;830</additional_attributes></element><element><id>Relation</id><coordinates><x>860</x><y>70</y><w>50</w><h>800</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;30;780</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>150</y><w>300</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Κάνει συνδεσή λογαριασμού</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>230</y><w>300</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Βάζει  όνομα χρήστη και κωδικό πρόσβασης</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>380</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Ελέγχει τα στοιχεία</panel_attributes><additional_attributes>270;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>410</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Τα στοιχεία είναι σωστά</panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>700</y><w>300</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Βάζει  όνομα χρήστη και κωδικό πρόσβασης</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>670</y><w>300</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Τα στοιχεία είναι σωστά</panel_attributes><additional_attributes>10;20;280;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>330</x><y>620</y><w>580</w><h>150</h></coordinates><panel_attributes>Loop</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>610</x><y>630</y><w>300</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Ελέγχει τα στοιχεία</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>340</x><y>380</y><w>540</w><h>70</h></coordinates><panel_attributes>opt
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>310</x><y>560</y><w>620</w><h>240</h></coordinates><panel_attributes>opt
+--
+Αν τα στοιχεία είναι λάθος 
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>270</x><y>330</y><w>680</w><h>490</h></coordinates><panel_attributes>opt
+--
+Ελεγχός στοιχείων 
+-.
+
+
+
+
+
+-.
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>850</y><w>300</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Επιτυχής σύνδεση </panel_attributes><additional_attributes>10;20;280;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>610</x><y>130</y><w>20</w><h>760</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>870</x><y>380</y><w>20</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>880</x><y>640</y><w>20</w><h>60</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element></diagram>

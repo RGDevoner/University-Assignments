@@ -1,0 +1,45 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes
+</help_text><element><id>UMLActor</id><coordinates><x>540</x><y>0</y><w>80</w><h>110</h></coordinates><panel_attributes>Ακροατής </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>90</y><w>30</w><h>1010</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;990</additional_attributes></element><element><id>UMLClass</id><coordinates><x>700</x><y>70</y><w>140</w><h>30</h></coordinates><panel_attributes>Εφαρμογή</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>930</x><y>70</y><w>140</w><h>30</h></coordinates><panel_attributes>Βάση Δεδομένων</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>90</y><w>50</w><h>1020</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;30;1000</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>170</y><w>220</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Βάζει username και password</panel_attributes><additional_attributes>200;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1000</x><y>90</y><w>60</w><h>1040</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;40;1020</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>200</y><w>270</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Τσεκάρει άμα υπάρχει το username
+και αν ο κωδικός αντιστοιχεί σε αυτό
+το username</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>330</y><w>270</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Υπάρχει και το username και ο κωδικός
+αντιστοιχεί σε αυτό</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>380</y><w>220</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Επιτυχής σύνδεση
+ στον λογαριασμό</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>460</y><w>270</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Λάθος κωδικός ή δεν υπάρχει 
+το username</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>490</y><w>220</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Αποτυχής προσπάθεια 
+σύνδεσης στον λογαριασμό
+και προσπαθεί να ξανασυνδεθεί</panel_attributes><additional_attributes>10;20;200;20</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>590</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Απαντάει στις ερωτήσεις της 
+εφαρμογής</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>620</y><w>270</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Ψάχνει τα πιο κατάλληλα κομμάτια
+βάση των απαντήσεων του χρήστη</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>760</x><y>680</y><w>290</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Στέλνει τα πιο κατάλληλα κομμάτια
+που υπάρχουν στην Βάση δεδομένων </panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>740</y><w>250</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Εμφάνιση στον χρήστη το προτεινόμενο 
+τραγούδι προς ακρόαση</panel_attributes><additional_attributes>20;20;220;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>560</x><y>310</y><w>520</w><h>120</h></coordinates><panel_attributes>If username exists and is passowrd
+is correct
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>540</x><y>460</y><w>530</w><h>110</h></coordinates><panel_attributes>Else
+--
+
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>500</x><y>250</y><w>620</w><h>330</h></coordinates><panel_attributes>opt
+--
+Ταυτοποίηση χρήστη
+-.
+
+
+
+
+
+-.
+group=group-2</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>430</x><y>820</y><w>170</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Ακούει το τραγούδι</panel_attributes><additional_attributes>150;40;60;20;150;20</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>870</y><w>230</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Το αξιολογεί μέσω της λειτουργίας 
+*Αξιολόγηση*</panel_attributes><additional_attributes>210;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>910</y><w>280</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;.
+Καταχώρηση της αξιολόγησης</panel_attributes><additional_attributes>260;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>960</y><w>290</w><h>40</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Παίζει το επόμενο προτεινόμενο τραγούδι</panel_attributes><additional_attributes>10;20;270;20</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>1040</y><w>240</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-
+Ο χρήστης βγαίνει 
+από την εφαρμογή</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>760</x><y>180</y><w>20</w><h>540</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>770</x><y>740</y><w>20</w><h>330</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1010</x><y>210</y><w>20</w><h>500</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>1030</x><y>920</y><w>20</w><h>70</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>430</x><y>790</y><w>710</w><h>210</h></coordinates><panel_attributes>Loop</panel_attributes><additional_attributes></additional_attributes></element></diagram>
